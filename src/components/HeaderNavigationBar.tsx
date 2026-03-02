@@ -11,7 +11,7 @@ export default function HeaderNavigationBar() {
         return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
     });
 
-    const legalPaths = ['/privacy-policy', '/terms-and-conditions'];
+    const legalPaths = ['/privacy-policy', '/terms-and-conditions', '/terms-of-service'];
     const isLegalPage = legalPaths.some(p => window.location.pathname.startsWith(p));
     const [active, setActive] = useState(isLegalPage ? "" : "#home");
 
