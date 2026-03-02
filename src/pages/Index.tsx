@@ -226,7 +226,7 @@ export default function Index() {
                             >
                                 <div className={`overflow-hidden rounded-[22px] ${isDark ? "shadow-[0_20px_40px_rgba(0,0,0,0.5)]" : "shadow-[0_20px_40px_rgba(0,0,0,0.08)]"}`} style={{ height: "clamp(300px, 40vw, 520px)" }}>
                                     <img
-                                        src="/deliveryRiders.webp"
+                                        src="/deliveryRiders.avif"
                                         alt="GetApp Platform Interface"
                                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-[1.03]"
                                         onError={e => {
